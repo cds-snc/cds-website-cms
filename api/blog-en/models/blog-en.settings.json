@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_ens",
+  "info": {
+    "name": "BlogEN"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "AuthorAndTitle": {
+      "type": "string"
+    },
+    "PublishDate": {
+      "type": "datetime"
+    },
+    "BannerImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "ImageAltText": {
+      "type": "text",
+      "required": true
+    },
+    "TranslationID": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
