@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_posting_frs",
+  "info": {
+    "name": "Job Posting FR",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "leverId": {
+      "type": "string"
+    },
+    "translationKey": {
+      "type": "string"
+    },
+    "archived": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

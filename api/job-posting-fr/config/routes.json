@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/job-posting-frs",
+      "handler": "job-posting-fr.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/job-posting-frs/count",
+      "handler": "job-posting-fr.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/job-posting-frs/:id",
+      "handler": "job-posting-fr.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/job-posting-frs",
+      "handler": "job-posting-fr.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/job-posting-frs/:id",
+      "handler": "job-posting-fr.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/job-posting-frs/:id",
+      "handler": "job-posting-fr.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

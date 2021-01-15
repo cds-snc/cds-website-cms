@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products_ens",
+  "info": {
+    "name": "Products-EN",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "translationKey": {
+      "type": "string",
+      "required": true
+    },
+    "LinkToProduct": {
+      "type": "string"
+    },
+    "phase": {
+      "type": "enumeration",
+      "enum": [
+        "discovery",
+        "alpha",
+        "beta",
+        "live"
+      ]
+    },
+    "partners_ens": {
+      "collection": "partners-en"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "inflight",
+        "past"
+      ]
+    }
+  }
+}

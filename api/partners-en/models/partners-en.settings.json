@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners_ens",
+  "info": {
+    "name": "partners-en",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

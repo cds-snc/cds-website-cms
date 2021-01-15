@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_posting_ens",
+  "info": {
+    "name": "Job Posting EN"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "leverId": {
+      "type": "string"
+    },
+    "archived": {
+      "type": "boolean",
+      "default": false
+    },
+    "translationKey": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
