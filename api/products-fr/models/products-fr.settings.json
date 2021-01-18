@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "products_ens",
+  "collectionName": "products_frs",
   "info": {
-    "name": "Products-EN",
+    "name": "Products-FR",
     "description": ""
   },
   "options": {
@@ -33,8 +33,8 @@
         "live"
       ]
     },
-    "partners_ens": {
-      "collection": "partners-en"
+    "partners_frs": {
+      "collection": "partners-fr"
     },
     "status": {
       "type": "enumeration",

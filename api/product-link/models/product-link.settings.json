@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_links",
+  "info": {
+    "name": "productLink",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "linkTextEN": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string"
+    },
+    "linkTextFR": {
+      "type": "string"
+    }
+  }
+}

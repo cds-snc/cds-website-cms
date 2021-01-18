@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners_frs",
+  "info": {
+    "name": "partners-fr"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
