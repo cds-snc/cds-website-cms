@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "cds_contact_infos",
+  "info": {
+    "name": "CDS Contact Info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "mediumNameEN": {
+      "type": "string"
+    },
+    "mediumURLEN": {
+      "type": "string"
+    },
+    "mediumNameFR": {
+      "type": "string"
+    },
+    "mediumURLFR": {
+      "type": "string"
+    }
+  }
+}

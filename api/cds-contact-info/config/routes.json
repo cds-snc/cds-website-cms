@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cds-contact-info",
+      "handler": "cds-contact-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cds-contact-info",
+      "handler": "cds-contact-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cds-contact-info",
+      "handler": "cds-contact-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
