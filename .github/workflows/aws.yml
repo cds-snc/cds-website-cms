@@ -62,11 +62,17 @@ jobs:
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:GITHUB_SHA
         echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$GITHUB_SHA"
 
+    - name: Download cms task definition
+      id: download-taskdef-cms
+      run: |
+        --query taskDefinition > task-definition-retrieval.json --query taskDefinition > task-definition-cms.json
+        echo "##[set-output name=container_name;]$(jq -r '.containerDefinitions[0].name' task-definition-cms.json)"
+
     - name: Fill in the new image ID in the Amazon ECS task definition
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: cms_app.json
+        task-definition: task-definition-cms.json
         container-name: cds-website-cms
         image: ${{ steps.build-image.outputs.image }}
 
