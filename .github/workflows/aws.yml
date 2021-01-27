@@ -65,7 +65,7 @@ jobs:
     - name: Download cms task definition
       id: download-taskdef-cms
       run: |
-        --query taskDefinition > task-definition-retrieval.json --query taskDefinition > task-definition-cms.json
+        aws ecs describe-task-definition --task-definition website-cms-task --query taskDefinition > task-definition-cms.json
         echo "##[set-output name=container_name;]$(jq -r '.containerDefinitions[0].name' task-definition-cms.json)"
 
     - name: Fill in the new image ID in the Amazon ECS task definition
