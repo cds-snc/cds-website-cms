@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/update-content",
+      "handler": "webhooks.updateContent",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
