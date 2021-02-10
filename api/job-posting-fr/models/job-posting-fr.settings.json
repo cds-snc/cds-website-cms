@@ -20,7 +20,7 @@
     "LeverId": {
       "type": "string"
     },
-    "TranslationKey": {
+    "TranslationID": {
       "type": "string"
     },
     "Archived": {

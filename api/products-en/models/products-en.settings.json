@@ -17,7 +17,7 @@
     "description": {
       "type": "text"
     },
-    "translationKey": {
+    "TranslationID": {
       "type": "string",
       "required": true
     },
