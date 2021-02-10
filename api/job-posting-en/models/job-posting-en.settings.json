@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "job_posting_ens",
   "info": {
-    "name": "Job Posting EN"
+    "name": "Job Posting EN",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,24 +11,27 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "Description": {
       "type": "text",
       "required": true
     },
-    "leverId": {
+    "LeverId": {
       "type": "string"
     },
-    "archived": {
+    "Archived": {
       "type": "boolean",
       "default": false
     },
-    "translationKey": {
+    "TranslationKey": {
       "type": "string",
       "required": true
+    },
+    "Body": {
+      "type": "richtext"
     }
   }
 }

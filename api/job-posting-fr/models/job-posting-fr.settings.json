@@ -11,21 +11,24 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
-    "description": {
+    "Description": {
       "type": "text"
     },
-    "leverId": {
+    "LeverId": {
       "type": "string"
     },
-    "translationKey": {
+    "TranslationKey": {
       "type": "string"
     },
-    "archived": {
+    "Archived": {
       "type": "boolean",
       "default": false
+    },
+    "Body": {
+      "type": "richtext"
     }
   }
 }
