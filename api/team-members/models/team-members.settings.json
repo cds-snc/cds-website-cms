@@ -50,6 +50,10 @@
     },
     "email": {
       "type": "email"
+    },
+    "KeyContact": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
