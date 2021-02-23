@@ -48,6 +48,10 @@
     },
     "product_links": {
       "collection": "product-link"
+    },
+    "onhomepage": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
