@@ -2,31 +2,30 @@
   "name": "cds-website-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "CDS Website CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
     "strapi": "3.4.3",
-    "strapi-admin": "3.4.3",
+    "strapi-admin": "^3.5.1",
     "strapi-connector-bookshelf": "3.4.3",
     "strapi-plugin-content-manager": "3.4.3",
     "strapi-plugin-content-type-builder": "3.4.3",
     "strapi-plugin-email": "3.4.3",
-    "strapi-plugin-upload": "3.4.3",
+    "strapi-plugin-upload": "^3.5.1",
     "strapi-plugin-users-permissions": "3.4.3",
     "strapi-provider-upload-aws-s3": "^3.4.3",
     "strapi-utils": "3.4.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Canadian Digital Service"
   },
   "strapi": {
     "uuid": "a01feafd-3c9e-4219-aa50-5c9fa98a8f99"
