@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "partners_ens",
   "info": {
-    "name": "partners-en",
+    "name": "partners",
     "description": ""
   },
   "options": {
@@ -11,10 +11,16 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "name": {
+    "nameEN": {
       "type": "string"
     },
-    "url": {
+    "urlEN": {
+      "type": "string"
+    },
+    "nameFR": {
+      "type": "string"
+    },
+    "urlFR": {
       "type": "string"
     }
   }

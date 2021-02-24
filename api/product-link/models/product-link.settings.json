@@ -15,10 +15,13 @@
       "type": "string",
       "required": true
     },
-    "URL": {
+    "urlEN": {
       "type": "string"
     },
     "linkTextFR": {
+      "type": "string"
+    },
+    "urlFR": {
       "type": "string"
     }
   }

@@ -33,9 +33,6 @@
         "live"
       ]
     },
-    "partners_frs": {
-      "collection": "partners-fr"
-    },
     "status": {
       "type": "enumeration",
       "enum": [
