@@ -39,7 +39,7 @@
     "status": {
       "type": "enumeration",
       "enum": [
-        "in-flight",
+        "inflight",
         "past"
       ]
     },
