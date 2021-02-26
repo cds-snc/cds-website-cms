@@ -33,7 +33,7 @@
         "live"
       ]
     },
-    "partners_ens": {
+    "partners": {
       "collection": "partners"
     },
     "status": {
