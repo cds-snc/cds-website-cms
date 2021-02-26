@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/products-partnerships-ens",
+      "handler": "products-partnerships-en.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/products-partnerships-en/count",
+      "handler": "products-partnerships-en.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/products-partnerships-en/:id",
+      "handler": "products-partnerships-en.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/products-partnerships-en",
+      "handler": "products-partnerships-en.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/products-partnerships-en/:id",
+      "handler": "products-partnerships-en.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/products-partnerships-en/:id",
+      "handler": "products-partnerships-en.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

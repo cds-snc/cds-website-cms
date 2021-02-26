@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products_partnerships_ens",
+  "info": {
+    "name": "Products (Partnerships) EN",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "TranslationID": {
+      "type": "string",
+      "required": true
+    },
+    "LinkToProduct": {
+      "type": "string"
+    },
+    "phase": {
+      "type": "enumeration",
+      "enum": [
+        "discovery",
+        "alpha",
+        "beta",
+        "live"
+      ]
+    },
+    "partners": {
+      "collection": "partners"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "inflight",
+        "past"
+      ]
+    },
+    "contacts": {
+      "collection": "contact"
+    },
+    "product_links": {
+      "collection": "product-link"
+    },
+    "onhomepage": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

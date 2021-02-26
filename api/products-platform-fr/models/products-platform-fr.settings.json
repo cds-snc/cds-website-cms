@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products_platform_frs",
+  "info": {
+    "name": "Products (Platform) FR",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "phase": {
+      "type": "enumeration",
+      "enum": [
+        "discovery",
+        "alpha",
+        "beta",
+        "live"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "inflight",
+        "past"
+      ]
+    },
+    "TranslationID": {
+      "type": "string",
+      "required": true
+    },
+    "onhomepage": {
+      "type": "boolean",
+      "default": false
+    },
+    "contacts": {
+      "collection": "contact"
+    },
+    "product_links": {
+      "collection": "product-link"
+    },
+    "LinkToProduct": {
+      "type": "string"
+    },
+    "partners": {
+      "collection": "partners"
+    }
+  }
+}
