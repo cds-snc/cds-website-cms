@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "products_frs",
+  "collectionName": "products_partnerships_frs",
   "info": {
-    "name": "Products-FR",
+    "name": "Products (Partnerships) FR",
     "description": ""
   },
   "options": {
