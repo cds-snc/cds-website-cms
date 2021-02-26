@@ -34,7 +34,7 @@
       ]
     },
     "partners_ens": {
-      "collection": "partners-en"
+      "collection": "partners"
     },
     "status": {
       "type": "enumeration",

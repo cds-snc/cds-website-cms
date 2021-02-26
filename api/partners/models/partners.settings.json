@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "partners_ens",
+  "collectionName": "partners",
   "info": {
     "name": "partners",
     "description": ""
