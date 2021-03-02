@@ -11,6 +11,9 @@
     "draftAndPublish": false
   },
   "attributes": {
+    "description": {
+      "type": "string"
+    },
     "linkTextEN": {
       "type": "string",
       "required": true
