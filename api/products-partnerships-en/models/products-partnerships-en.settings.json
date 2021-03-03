@@ -41,7 +41,9 @@
       "enum": [
         "inflight",
         "past"
-      ]
+      ],
+      "default": "inflight",
+      "required": true
     },
     "contacts": {
       "collection": "contact"
