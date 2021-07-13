@@ -11,6 +11,11 @@
     "draftAndPublish": false
   },
   "attributes": {
+    "role": {
+      "type": "enumeration",
+      "enum": ["Design", "Design Research", "Development", "Internal Operations", "Partnerships", "Policy", "Product Management", "Outreach", "Talent"],
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true
