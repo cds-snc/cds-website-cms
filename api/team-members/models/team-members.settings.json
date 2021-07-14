@@ -13,7 +13,17 @@
   "attributes": {
     "role": {
       "type": "enumeration",
-      "enum": ["Design", "Design Research", "Development", "Internal Operations", "Partnerships", "Policy", "Product Management", "Outreach", "Talent"],
+      "enum": [
+        "Design",
+        "Design Research",
+        "Development",
+        "Internal Operations",
+        "Partnerships",
+        "Policy",
+        "Product Management",
+        "Outreach",
+        "Talent"
+      ],
       "required": true
     },
     "name": {
@@ -31,11 +41,7 @@
     "Photo": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
+      "allowedTypes": ["files", "images", "videos"],
       "plugin": "upload",
       "required": true
     },
