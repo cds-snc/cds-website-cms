@@ -11,6 +11,21 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Équipe de la direction",
+        "Conception",
+        "Recherche",
+        "Développement",
+        "Opérations internes",
+        "Partenariats",
+        "Politiques",
+        "Gestion de produits",
+        "Liaison et diffusion",
+        "Personnel et culture"
+      ]
+    },
     "Title": {
       "type": "string"
     },
