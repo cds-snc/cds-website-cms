@@ -1,0 +1,35 @@
+{
+    "kind": "collectionType",
+    "collectionName": "guides_frs",
+    "info": {
+      "name": "Guides FR",
+      "description": ""
+    },
+    "options": {
+      "increments": true,
+      "timestamps": true,
+      "draftAndPublish": true
+    },
+    "attributes": {
+      "Title": {
+        "type": "string",
+        "required": true
+      },
+      "Description": {
+        "type": "text",
+        "required": true
+      },
+      "ButtonText": {
+          "type": "string"
+      },
+      "ButtonAria": {
+          "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "Weight": {
+          "type": "integer"
+      }
+    }
+  }
