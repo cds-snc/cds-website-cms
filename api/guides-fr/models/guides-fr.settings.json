@@ -28,6 +28,10 @@
       "url": {
         "type": "string"
       },
+      "TranslationID": {
+        "type": "string",
+        "required": true
+      },
       "Weight": {
           "type": "integer"
       }
