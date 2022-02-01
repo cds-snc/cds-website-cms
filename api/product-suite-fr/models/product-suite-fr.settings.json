@@ -1,0 +1,43 @@
+{
+    "kind": "collectionType",
+    "collectionName": "product_suite_frs",
+    "info": {
+      "name": "Product Suite FR",
+      "description": ""
+    },
+    "options": {
+      "increments": true,
+      "timestamps": true,
+      "draftAndPublish": true
+    },
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "subtitle": {
+          "type": "string"
+      },
+      "description": {
+        "type": "text"
+      },
+      "secondDescription": {
+          "type": "text"
+      },
+      "buttonText": {
+          "type": "string"
+      },
+      "buttonAria": {
+          "type": "string"
+      },
+      "weight": {
+        "type": "integer"
+      },
+      "TranslationID": {
+        "type": "string",
+        "required": true
+      },
+      "url": {
+          "type": "string"
+      }
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "kind": "collectionType",
+    "collectionName": "product_suite_ens",
+    "info": {
+      "name": "Product Suite EN",
+      "description": ""
+    },
+    "options": {
+      "increments": true,
+      "timestamps": true,
+      "draftAndPublish": true
+    },
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "subtitle": {
+          "type": "string"
+      },
+      "description": {
+        "type": "text"
+      },
+      "secondDescription": {
+          "type": "text"
+      },
+      "buttonText": {
+          "type": "string"
+      },
+      "buttonAria": {
+          "type": "string"
+      },
+      "weight": {
+        "type": "integer"
+      },
+      "TranslationID": {
+        "type": "string",
+        "required": true
+      },
+      "url": {
+          "type": "string"
+      }
+    }
+  }
