@@ -11,32 +11,32 @@
       "draftAndPublish": true
     },
     "attributes": {
-      "title": {
+      "Title": {
         "type": "string"
       },
-      "subtitle": {
+      "Subtitle": {
           "type": "string"
       },
-      "description": {
+      "Description": {
         "type": "text"
       },
-      "secondDescription": {
+      "SecondDescription": {
           "type": "text"
       },
-      "buttonText": {
+      "ButtonText": {
           "type": "string"
       },
-      "buttonAria": {
+      "ButtonAria": {
           "type": "string"
       },
-      "weight": {
+      "Weight": {
         "type": "integer"
       },
       "TranslationID": {
         "type": "string",
         "required": true
       },
-      "url": {
+      "Url": {
           "type": "string"
       }
     }
