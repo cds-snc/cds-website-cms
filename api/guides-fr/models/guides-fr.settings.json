@@ -25,7 +25,7 @@
       "ButtonAria": {
           "type": "string"
       },
-      "Url": {
+      "LinkToGuide": {
         "type": "string"
       },
       "TranslationID": {
