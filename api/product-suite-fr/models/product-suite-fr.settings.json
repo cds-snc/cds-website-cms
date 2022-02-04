@@ -1,43 +1,43 @@
 {
-    "kind": "collectionType",
-    "collectionName": "product_suite_frs",
-    "info": {
-      "name": "Product Suite FR",
-      "description": ""
+  "kind": "collectionType",
+  "collectionName": "product_suite_frs",
+  "info": {
+    "name": "Product Suite FR",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
     },
-    "options": {
-      "increments": true,
-      "timestamps": true,
-      "draftAndPublish": true
-    },
-    "attributes": {
-      "Title": {
+    "Subtitle": {
         "type": "string"
-      },
-      "Subtitle": {
-          "type": "string"
-      },
-      "Description": {
+    },
+    "Description": {
+      "type": "text"
+    },
+    "SecondDescription": {
         "type": "text"
-      },
-      "SecondDescription": {
-          "type": "text"
-      },
-      "ButtonText": {
-          "type": "string"
-      },
-      "ButtonAria": {
-          "type": "string"
-      },
-      "Weight": {
-        "type": "integer"
-      },
-      "TranslationID": {
-        "type": "string",
-        "required": true
-      },
-      "Url": {
-          "type": "string"
-      }
+    },
+    "ButtonText": {
+        "type": "string"
+    },
+    "ButtonAria": {
+        "type": "string"
+    },
+    "Weight": {
+      "type": "integer"
+    },
+    "TranslationID": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+        "type": "string"
     }
   }
+}
