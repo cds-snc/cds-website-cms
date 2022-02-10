@@ -32,6 +32,9 @@
       "Weight": {
         "type": "integer"
       },
+      "TagID": {
+        "type": "string"
+      },
       "TranslationID": {
         "type": "string",
         "required": true
