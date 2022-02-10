@@ -32,6 +32,9 @@
         "type": "string",
         "required": true
       },
+      "TagID": {
+        "type": "string"
+      },
       "Weight": {
           "type": "integer"
       }
