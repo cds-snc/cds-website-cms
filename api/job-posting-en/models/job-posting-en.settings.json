@@ -11,6 +11,21 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Leadership",
+        "Design",
+        "Research",
+        "Development",
+        "Internal Operations",
+        "Partnerships",
+        "Policy",
+        "Product Management",
+        "Outreach",
+        "People and Culture"
+      ]
+    },
     "Title": {
       "type": "string",
       "required": true
