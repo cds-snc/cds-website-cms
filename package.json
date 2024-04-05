@@ -10,10 +10,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@strapi/strapi": "^4.22.0",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
-    "strapi": "3.4.3",
     "strapi-admin": "3.4.3",
     "strapi-connector-bookshelf": "3.4.3",
     "strapi-plugin-content-manager": "3.4.3",
