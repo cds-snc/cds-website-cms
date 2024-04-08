@@ -1,8 +1,10 @@
-// module.exports = ({ env }) => ({
-//     apiToken: {
-//       salt: env('API_TOKEN_SALT', 'd9b0df66ff97a666027e665707b4e3e7'),
-//     },
-//     auth: {
-//       secret: env('ADMIN_JWT_SECRET', '77b2c87dbab4e1697bec244226fbd1b3'),
-//     },
-//   });
+const crypto = require("crypto");
+
+module.exports = ({ env }) => ({
+    apiToken: {
+      salt: env('API_TOKEN_SALT', crypto.randomBytes(16).toString('base64')),
+    },
+    auth: {
+      secret: env('ADMIN_JWT_SECRET', '84d69d082ca568fd62f5887d4b42ab97'),
+    },
+  });
