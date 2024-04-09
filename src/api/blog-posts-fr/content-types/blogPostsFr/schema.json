@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_frs",
+  "info": {
+    "singularName": "blog-posts-fr",
+    "pluralName": "blog-posts-frs",
+    "displayName": "Blog Posts FR",
+    "name": "BlogFR"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "AuthorAndTitle": {
+      "type": "string",
+      "required": true
+    },
+    "PublishDate": {
+      "type": "datetime"
+    },
+    "BannerImage": {
+      "type": "media",
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false
+    },
+    "ImageAltText": {
+      "type": "text",
+      "required": true
+    },
+    "TranslationID": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
