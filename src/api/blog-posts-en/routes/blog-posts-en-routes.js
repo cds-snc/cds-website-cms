@@ -5,11 +5,6 @@ module.exports = {
           path: "/blog-posts-en",
           handler: "blog-posts-en-controller.find"
         },
-        // {
-        //   method: "GET",
-        //   path: "/blog-posts-en/count",
-        //   handler: "blog-posts-en-controller.count"
-        // },
         {
           method: "GET",
           path: "/blog-posts-en/:id",
