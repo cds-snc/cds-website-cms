@@ -1,11 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "blog_frs",
+  "collectionName": "blogPostsFr",
   "info": {
     "singularName": "blog-posts-fr",
     "pluralName": "blog-posts-frs",
     "displayName": "Blog Posts FR",
-    "name": "BlogFR"
+    "name": "blogPostsFr"
   },
   "options": {
     "increments": true,
