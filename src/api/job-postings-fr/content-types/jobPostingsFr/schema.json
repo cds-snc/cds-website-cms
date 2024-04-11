@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_posting_frs",
+  "info": {
+    "singularName": "job-postings-fr",
+    "pluralName": "job-posting-frs",
+    "displayName": "Job Posting Fr",
+    "name": "Job Posting FR"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "LeverId": {
+      "type": "string"
+    },
+    "TranslationID": {
+      "type": "string"
+    },
+    "Archived": {
+      "type": "boolean",
+      "default": false
+    },
+    "Body": {
+      "type": "richtext"
+    }
+  }
+}
