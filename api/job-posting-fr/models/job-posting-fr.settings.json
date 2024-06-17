@@ -27,6 +27,10 @@
       "type": "boolean",
       "default": false
     },
+    "Hidden": {
+      "type": "boolean",
+      "default": false
+    },
     "Body": {
       "type": "richtext"
     }

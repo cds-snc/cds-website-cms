@@ -26,6 +26,10 @@
       "type": "boolean",
       "default": false
     },
+    "Hidden": {
+      "type": "boolean",
+      "default": false
+    },
     "TranslationID": {
       "type": "string",
       "required": true
