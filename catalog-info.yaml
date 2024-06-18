@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cds-website-cms
+  description: A Strapi instance serving as the content management system for the CDS website - Une instance de Strapi servant de gestionnaire de contenu pour le site web du SNC
+  annotations:
+    github.com/project-slug: cds-snc/cds-website-cms
+  links:
+    - url: https://strapi.cdssandbox.xyz/admin/
+spec:
+  type: website
+  owner: group:cds-snc/website-devs
+  lifecycle: production
+  system: digital-canada-website
