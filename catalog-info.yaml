@@ -11,4 +11,4 @@ spec:
   type: website
   owner: group:cds-snc/website-devs
   lifecycle: production
-  system: digital-canada-website
+  system: cds-website
