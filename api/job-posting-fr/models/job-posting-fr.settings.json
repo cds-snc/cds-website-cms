@@ -23,11 +23,11 @@
     "TranslationID": {
       "type": "string"
     },
-    "Archived": {
+    "LinkHidden": {
       "type": "boolean",
       "default": false
     },
-    "Hidden": {
+    "FormHidden": {
       "type": "boolean",
       "default": false
     },
