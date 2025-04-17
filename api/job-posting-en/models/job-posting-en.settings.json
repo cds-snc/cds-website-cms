@@ -19,9 +19,6 @@
       "type": "text",
       "required": true
     },
-    "LeverId": {
-      "type": "string"
-    },
     "LinkHidden": {
       "type": "boolean",
       "default": false
@@ -33,6 +30,10 @@
     "TranslationID": {
       "type": "string",
       "required": true
+    },
+    "Draft": {
+      "type": "boolean",
+      "default": false
     },
     "Body": {
       "type": "richtext"
