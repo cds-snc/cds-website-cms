@@ -17,9 +17,6 @@
     "Description": {
       "type": "text"
     },
-    "LeverId": {
-      "type": "string"
-    },
     "TranslationID": {
       "type": "string"
     },
@@ -28,6 +25,10 @@
       "default": false
     },
     "FormHidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "Draft": {
       "type": "boolean",
       "default": false
     },
